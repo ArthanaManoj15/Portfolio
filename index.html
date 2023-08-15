@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- image icon in title -->
+    <link rel="icon" type= "image/x-icon" href="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png">
+    
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Crimson+Text:ital@0;1&family=Lumanosimo&family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <!--Icon(Font awesome cdn)  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- <h1>Google Fonts and Icons</h1>
+    <i class="fa-brands fa-linkedin-in fa-5x" style="color: #0f5ee6;"></i>
+    <i class="fa-brands fa-github fa-5x" style="color: #000205;"></i> -->
+
+    < class="container">
+        <nav class="navbar">
+            <img class="logo" src="Images/img1.jpg" alt="Image1"> <!--logo-->
+            <ul> <!--list-->
+                <li class="listitem"><a class="link" href="#home">Home</a></li>
+                <li class="listitem"><a class="link"href="#about">About</a></li>
+                <li class="listitem"><a class="link" href="#skills">Skill</a></li>
+                <li class="listitem"><a class="link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+
+        <!-- Home section -->
+        <!-- using id bcoz while clicking Home this should navigate to Home section.In href we cannot use class-->
+        <section id="home"> 
+            <div class="title">
+                <h1 class="title_h1">I'm Arthana <span id="lname" >Manoj</span></h1>  
+                <p class="title_p">I design and code beautifully simple things, <br>and I love what I do.</p>
+                <!-- download without any preview -->
+                <!-- <a class="download" href="Images/ARTHANA_MANOJ_RESUME 1.pdf" download>DOWNLOAD CV</a> -->
+
+                <!-- download with preview -->
+                <a class="download" href="https://drive.google.com/file/d/1sj48uYg602ufE46cMqB2MCRt9txHdMGc/view?usp=sharing" target="_blank" download> DOWNLOAD CV</a>
+            </div>
+            <!-- image -->
+            <div class="images">
+                <img id="shape" src="Images/img5-removebg-preview.png" alt="image2">
+                <img id="girl" src="Images/img3-removebg-preview.png" alt="image1">
+            </div>
+        </section>
+
+        <!-- About Section  -->
+        <section id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Images/img2.jpg" alt="">
+                </div>
+                <div class="about-details">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem cum ratione ad perspiciatis quidem dolores explicabo ut necessitatibus tempora, doloremque nesciunt mollitia deleniti voluptas iure praesentium. Aperiam, quo? Natus!</p>
+                    <div class="information">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user" style="color: #00040a;"></i>
+                            <span>Arthana Manoj</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone" style="color: #00060f;"></i>
+                            <span>9999999999</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope" style="color: #00040a;"></i>
+                            <span>arthanamanoj@gmail.com</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-brands fa-github" style="color: #00060f;"></i>
+                            <span>arthanamanoj</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skill section -->
+
+        <section id="skills">
+            <div class="heading">
+                <h2>Skills</h2>
+                <span>My Skills</span>
+            </div>
+
+            <div class="skill-content">
+                <!-- progress -->
+                <div class="progress-bar">
+                    <div class="bar-container">
+                        <h3>HTML</h3>
+                        <span>95%</span>
+                        <div class="base-bar"></div>
+                        <div class="base-bar html-bar"></div>
+                    </div>
+                    <div class="bar-container">
+                        <h3>CSS</h3>
+                        <span>88%</span>
+                        <div class="base-bar"></div>
+                        <div class="base-bar css-bar"></div>
+                    </div>
+                    <div class="bar-container">
+                        <h3>REACT</h3>
+                        <span>89%</span>
+                        <div class="base-bar"></div>
+                        <div class="base-bar react-bar"></div>
+                    </div>
+                    <div class="bar-container">
+                        <h3>JS</h3>
+                        <span>85%</span>
+                        <div class="base-bar"></div>
+                        <div class="base-bar js-bar"></div>
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="skill-img">
+                    <img src="Images/img4.jpg" alt="images">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="heading">
+                <h2>Contacts</h2>
+                <span>My Contacts</span>
+            </div>
+            <div class="icon-set">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/login" target="_blank">
+                    <i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com/explore/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://twitter.com/i/flow/login" target="_blank">
+                    <i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/login/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i></a>
+                </div>
+
+            </div>
+        </section>
+<!-- Footer Section -->
+   
+        <footer>
+            <p id="copywrite">&copy;My Portfolio design at 2023, All Rights Reserved &reg; Arthana Manoj</p>
+       
+        <div class="up-arrow">
+            <a href="#container">
+                <i class="fa-solid fa-arrow-up fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+
+    </div>
+</body> 
+
+
+
+</html>
